@@ -1,0 +1,21 @@
+{
+  "name": "maid-topup-backend",
+  "version": "1.0.0",
+  "description": "Secure Node.js & Express Backend API for Maid Game Top Up with BahteraStore & Payment Gateway Integration",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test_verification.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.24.2"
+  }
+}
